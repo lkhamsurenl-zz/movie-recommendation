@@ -78,9 +78,7 @@ object movieALS {
       .sortBy(- _.rating)
       .take(50)
       .foreach { prediction =>
-        val movieName = movies(prediction.product)
-        val score = prediction.rating
-        println(s"${movieName}: ${score}")
+        println(s"${prediction.product}: ${movies(prediction.product)}")
       }
 
     //cleanup:
