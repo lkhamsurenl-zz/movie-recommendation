@@ -17,6 +17,7 @@ import org.apache.spark.mllib.recommendation.{ALS, Rating, MatrixFactorizationMo
 
 object movieALS {
   def main(args: Array[String]): Unit = {
+    // Set up the logger for better debugging.
     Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
     Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
 
@@ -25,17 +26,17 @@ object movieALS {
       System.exit(-1)
     }
 
-    // set up environment
+    // Set up environment.
     val conf = new SparkConf()
       .setAppName("MovieRecommendation")
       .set("spark.executor.memory", "2g")
     val sc = new SparkContext(conf)
 
-
+    // Load personal rating and create RDD.
     val personalRating = loadRating(args(0))
     val personalRatingsRDD = sc.parallelize(personalRating, 1)
 
-    // load ratings and movie titles
+    // Load ratings and movie titles.
     val movieLensHomeDir = args(1)
     val ratings = sc.textFile(new File(movieLensHomeDir, "ratings.dat").toString).map { line =>
       val fields = line.split("::")
@@ -50,16 +51,19 @@ object movieALS {
     }.collect().toMap
 
     val numPartition = 4
+    // 60% of the data is training data.
     val trainingData = ratings.filter(fields => fields._1 <= 6)
       .values
       .union(personalRatingsRDD)
       .repartition(numPartition)
       .cache()
 
+    // 20% of data is test.
     val testData = ratings.filter(fields => fields._1 > 6 && fields._1 <= 8)
       .values
       .cache()
 
+    // Remaining 20% is validation.
     val validationData = ratings.filter(fields => fields._1 > 8)
       .values
       .repartition(numPartition)
