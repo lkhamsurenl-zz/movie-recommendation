@@ -4,7 +4,7 @@
 [0m[[0minfo[0m] [0mMerging files...[0m
 [0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
 [0m[[33mwarn[0m] [0mStrategy 'discard' was applied to a file[0m
-[0m[[0minfo[0m] [0mSHA-1: 64f79c1a309c4af995c383ec9189d7de4c9174e5[0m
+[0m[[0minfo[0m] [0mSHA-1: 7793500509a95024256cb82a79319e8a6f166dd3[0m
 [0m[[0minfo[0m] [0mPackaging /Users/lkhamsurenl/Development/movie-recommendation/target/scala-2.10/MovieRecommendation-assembly-0.1.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	Model$$anonfun$1.class[0m
@@ -29,6 +29,26 @@
 [0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/Model.class[0m
 [0m[[0mdebug[0m] [0m	library.properties[0m
 [0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/3b522ff6b7d40be07059318715859f06b8ac2919_21d99cee3d3e478255ef9fcc90b571fb2ab074fc/library.properties[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$$anonfun$createLabeledPoints$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$$anonfun$createLabeledPoints$1.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression$.class[0m
+[0m[[0mdebug[0m] [0m	logisticRegression.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/logisticRegression.class[0m
 [0m[[0mdebug[0m] [0m	movieALS$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/lkhamsurenl/Development/movie-recommendation/target/streams/$global/assemblyOption/$global/streams/assembly/eff9510fdb1a440594db88b37fab02dcfe1448e8_dir/movieALS$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	movieALS$$anonfun$10.class[0m
